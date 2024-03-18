@@ -1,3 +1,9 @@
+body {
+    
+}
 nav{
-    background-color: blue;
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%; 
 }
