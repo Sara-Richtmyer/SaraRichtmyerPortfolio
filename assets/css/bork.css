@@ -1,9 +1,52 @@
 body {
     
 }
-nav{
-    background-color: teal;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10%; 
+
+nav {
+    background-color: #87B5CF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 40px;
+    
 }
+  
+#main-menu li {
+    color: white;
+    list-style: none;
+    background-color: #5B70C3;
+    border-radius: 0%;
+  
+}
+#main-menu {
+    
+    display: flex;
+    gap: 50px;
+    
+}
+
+li{
+    font-size: 40px
+   
+}
+
+section {
+    margin-inline: 200px;
+    margin-inline: 20%;
+    
+    padding: 30px;
+    }
+
+#top-section img{
+    width: 60%;
+}
+
+/* I thought that the width and margin-right would change the images position? */
+#gohan-image {
+    width: 20%; 
+    margin-right: 20px; 
+}
+
+
+
