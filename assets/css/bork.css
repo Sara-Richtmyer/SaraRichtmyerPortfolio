@@ -1,3 +1,4 @@
+/*  HTML css */
 body {
     
 }
@@ -77,6 +78,168 @@ height: 100%;
 }
 
 
+/* artwork page */
+#artwork h1 {
+}
+
+#drawing-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#naruto-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#deadpool2-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#deadpool3-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#boondocks-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#capybara-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#deadpool1-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#demonslayer-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#gohan-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#deadpool2-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#invincible-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#link-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#pikachu-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#tmnt-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#firehead-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#cody-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+#vegeta-image {
+    width: 20%; 
+    margin-right: 20%; 
+    flex: center;
+}
+
+/* about artist page */
+
+#saracapybara-image {
+    width: 30%; 
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: right; 
+    text-align:right;
+    font-size: 24px;
+}
+
+#aboutartist {
+    font-family: philly sans;
+    src: url(../Fonts/PhillySans.otf);
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+/* contact page */
 
 
+/* I used chat GPT to help me write this code below for the forum */
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
