@@ -55,20 +55,20 @@ section {
     display: flex;
 }
 
-#top-section img {
+/* #top-section img { */
 width: 100%;
 object-fit: cover;
 height: 100%;
-}
+/* } */
 #top-section article {
     flex: 1;
 }
 
-#gohan-image {
+/* #gohan-image { */
     width: 20%; 
     margin-right: 20%; 
     flex: center;
-}
+/* } */
 
 #sqr
 {
@@ -77,123 +77,179 @@ height: 100%;
     background-color: red;
 }
 
+.splide__slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+
 
 /* artwork page */
+#artwork-section{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#artwork-section article {
+    width: 30%;
+
+}
+#artwork-section article img{
+    width:100%;
+}
+
 #artwork h1 {
 }
 
 #drawing-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #naruto-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
+    display:flex;
     flex: center;
 }
 
 #deadpool2-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #deadpool3-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #boondocks-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #capybara-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #deadpool1-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #demonslayer-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #gohan-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #deadpool2-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #invincible-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #link-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #pikachu-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #tmnt-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #firehead-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #cody-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
 
 #vegeta-image {
-    width: 20%; 
-    margin-right: 20%; 
+    width: 100%; 
+    /* margin-right: 20%;  */
     flex: center;
 }
+
+#spraypaint-image {
+    width: 100%; 
+    /* margin-right: 20%;  */
+    flex: center;
+}
+
+#Broly-image {
+    width: 100%; 
+    /* margin-right: 20%;  */
+    flex: center;
+}
+
+#Cell-image {
+    width: 100%; 
+    /* margin-right: 20%;  */
+    flex: center;
+}
+
+#Gaara-image {
+    width: 100%; 
+    /* margin-right: 20%;  */
+    flex: center;
+}
+
+#Goku-image {
+    width: 100%; 
+    /* margin-right: 20%;  */
+    flex: center;
+}
+
+@media (min-width: 768px) {
+    // Conditional styles here for width >= 768px
+  }
+  
 
 /* about artist page */
 
 #saracapybara-image {
-    width: 30%; 
+    width: 95%;
     display: block;
-    margin: 0 auto; /* Center horizontally */
+    margin: 15; /* Center horizontally */
 }
 
 .content {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: right; 
     text-align:right;
@@ -207,6 +263,25 @@ height: 100%;
     text-align: center;
     font-size: 50px;
     
+}
+
+#paragraph {
+    width: 80%;
+    /* margin-left: 20px; */
+    text-align: left; 
+    font-size: 20px;
+}
+
+.abouttext {
+    display: flex;
+}
+
+.modal {
+    max-width: 90% !important; 
+}
+
+#overlay-image{
+    width:100%;
 }
 
 /* contact page */
@@ -242,4 +317,34 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #555;
+}
+
+#gmail {
+    width: 50px; /* Adjust this value as needed */
+    height: auto; /* This maintains the aspect ratio */
+
+    margin-bottom: 10px;
+}
+
+
+#instagram {
+    width: 50px; /* Adjust this value as needed */
+    height: auto; /* This maintains the aspect ratio */
+
+    margin-bottom: 10px;
+
+}
+
+#facebook {
+    width: 50px; /* Adjust this value as needed */
+    height: auto; /* This maintains the aspect ratio */
+   
+    margin-bottom: 10px;
+}
+
+#linkedin {
+    width: 50px; /* Adjust this value as needed */
+    height: auto; /* This maintains the aspect ratio */
+
+    margin-bottom: 10px;
 }

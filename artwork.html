@@ -30,84 +30,130 @@
              </menu>
          </nav>
         <!-- pictures -->
-        <article>
-            <a href="url to page"> 
-                <img id="drawing-image" src="assets/images/drawing.png" alt="text describing image">   </a>
+        <section id="artwork-section">
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork>
+                <img id="deadpoolimage" src="assets/images/Deadpool.jpg" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
-                <img id="naruto-image" src="assets/images/Naruto.png" alt="text describing image">   </a>
-          </article>
-
-          <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="deadpool2-image" src="assets/images/20240219_005554.jpg" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="deadpool3-image" src="assets/images/20240219_005612.jpg" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
+                <img id="drawing-image" src="assets/images/drawing.png" alt="text describing image">   </a>
+          </article>
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="boondocks-image" src="assets/images/Boondocks.png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
-                <img id="capybara-image" src="assets/images/Capybara_:).png" alt="text describing image">   </a>
-          </article>
-
-          <article>
-            <a href="url to page"> 
-                <img id="deadpool1image" src="assets/images/Deadpool#1.jpg" alt="text describing image">   </a>
-          </article>
-
-          <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="demonslayer-image" src="assets/images/Demon_slayer.png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
+                <img id="capybara-image" src="assets/images/Capybara.png" alt="text describing image">   </a>
+          </article>
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork>
+                <img id="naruto-image" src="assets/images/Naruto.png" alt="text describing image">   </a>
+          </article>
+
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="gohan-image" src="assets/images/Gohan.png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="invincible-image" src="assets/images/Invincible.png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="link-image" src="assets/images/Link_(Steven's_Gift).png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="pikachu-image" src="assets/images/SurfingPikachu.png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img id="tmnt-image" src="assets/images/TMNT.png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork></a>
                 <img id="firehead-image" src="assets/images/Untitled_Artwork copy 3.png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork>
                 <img  id="cody-image" src="assets/images/Untitled_Artwork copy.png" alt="text describing image">   </a>
           </article>
 
           <article>
-            <a href="url to page"> 
+            <a href="#ex1" rel="modal:open" data-artwork></a>
                 <img id="vegeta-image" src="assets/images/Vegeta.png" alt="text describing image">   </a>
           </article>
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork>
+                <img id="spraypaint-image" src="assets/images/spraypaint.jpg" alt="text describing image">   </a>
+          </article>
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork>
+                <img id="Broly-image" src="assets/images/Broly.png" alt="text describing image">   </a>
+          </article>
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork> 
+                <img id="Cell-image" src="assets/images/Cell.png" alt="text describing image">   </a>
+          </article>
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork>
+                <img id="Gaara-image" src="assets/images/Gaara.png" alt="text describing image">   </a>
+          </article>
+
+          <article>
+            <a href="#ex1" rel="modal:open" data-artwork>
+                <img id="Goku-image" src="assets/images/Goku.png" alt="text describing image">   </a>
+          </article>
+
+        </section>
+
+        <!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+    <img id="overlay-image" src="assets/images/Goku.png" alt="text describing image">
+    <a href="#" rel="modal:close">Close</a>
+  </div>
+
+        <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+<script src="assets/script.js"></script>
     </body>
+
 </html>

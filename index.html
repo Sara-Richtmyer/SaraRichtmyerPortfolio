@@ -27,19 +27,51 @@
         </menu>
     </nav>
     <!-- pictures -->
-    <section id="top-section">
-              
-              <article>
-                <a href="url to page"> 
-                    <img src="assets/images/drawing.png" alt="text describing image">   </a>
-              </article>
-              <article>
-                <a href="url to page"> 
-                    <img src="assets/images/Gohan.png" alt="text describing image” id="gohan-image.png">
-                </a>
-              </article>
-    
-        
-    </section>
+    <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                      <img src="assets/images/Gohan.png" alt="">
+                  </li>
+                  <li class="splide__slide">
+                      <img src="assets/images/TMNT.png" alt="">
+                  </li>
+                  <li class="splide__slide">
+                      <img src="assets/images/drawing.png" alt="">
+                  </li>
+              </ul>
+        </div>
+      </section>
+<!-- below connects index.html to the script.js -->
+    <body>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="assets/script.js"></script>
 
+
+        <script src="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+        "></script>
+        <link href="
+        https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+        " rel="stylesheet">
+         
+<!-- splide install -->
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+          new Splide( '#image-carousel', {
+            type:'loop',
+            autoplay: true,
+            interval: 2500
+            
+            //arrows: false,
+            //paginatoin: false,
+          } ).mount();
+        } );
+      </script>
+      
+<script>
+    new Splide( '#image-carousel' ).mount();
+  </script>
+
+    </body>
 </html>    
